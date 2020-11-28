@@ -1,0 +1,10 @@
+n = 28659
+print(len(str(n)))
+
+# FROM SOLUTION SECTION
+num = 75869
+count = 0
+while num != 0:
+    num //= 10
+    count+= 1
+print("Total digits are: ", count)
