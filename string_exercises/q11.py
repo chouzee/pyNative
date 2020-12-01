@@ -1,4 +1,6 @@
 str1 = "PYnative"
 print(str1[::-1])
-rev = reversed(str1)
-print(rev)
+
+#  Nice solution from the site
+str1 = ''.join(reversed(str1))
+print(str1)
