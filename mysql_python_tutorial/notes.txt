@@ -11,3 +11,7 @@ connection.cursor() - returns a cursor object. Using a cursor object we can exec
 cursor.close() - close cursor object. Once cursor closed we can not execute any SQL statement.
 
 connection.close() - closing the MySQL db connection using a close() method of MySQLConnection class.
+
+interactive_timeout - the number of seconds the server should wait for activity on an interactive connection before closing it.
+
+wait_timeout – Number of seconds the server should wait for activity on a connection before closing it.
