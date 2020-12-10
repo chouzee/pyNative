@@ -1,0 +1,13 @@
+import mysql.connector - import msql connection module to use module's API to connect MySQL.
+
+from mysql.connector import Error - Error object used to show an error when connection to db failed or about any other errors with db.
+
+mysql.connector.connect() - using this method we can connect to MySQL, this method accepts four required parameters: Host, Database, User, Password. This methodreturns a MySQLConnection object that we can use to perform various operations on the MySQL db.
+
+connection.is_connected() - the method of the MySQLConnection class through which we can verify is our python application connected to MySQL.
+
+connection.cursor() - returns a cursor object. Using a cursor object we can execute SQL queries.
+
+cursor.close() - close cursor object. Once cursor closed we can not execute any SQL statement.
+
+connection.close() - closing the MySQL db connection using a close() method of MySQLConnection class.
