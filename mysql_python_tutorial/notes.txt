@@ -19,3 +19,5 @@ wait_timeout – Number of seconds the server should wait for activity on a conn
 executemany() - allows us to insert multiple parameters in a single query. The syntax is cursor.executemany(operation, seq_of_params)
 
 cursor.fetchall() - fetch all records
+
+fetchone() - uses to fetch only 1 row
